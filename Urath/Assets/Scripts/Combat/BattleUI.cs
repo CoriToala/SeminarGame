@@ -4,6 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.EventSystems;
 using System;
+using TMPro;
 
 public class BattleUI : MonoBehaviour
 {
@@ -15,7 +16,7 @@ public class BattleUI : MonoBehaviour
 
     [SerializeField] private GameObject currentMoves;
 
-    [SerializeField] List<Text> buttonList = new List<Text>();
+    [SerializeField] List<TextMeshProUGUI> buttonList = new List<TextMeshProUGUI>();
 
     [SerializeField] private GameObject battleInputs;
     [SerializeField] private GameObject battleUI;

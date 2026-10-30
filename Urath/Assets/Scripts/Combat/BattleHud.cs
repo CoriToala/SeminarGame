@@ -2,12 +2,14 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
 
 public class BattleHud : MonoBehaviour
 {
-    public Text nameText;
-    public Text ppValue;
-    public Text healthValue;
+    public TextMeshProUGUI nameText;
+    public TextMeshProUGUI ppValue;
+    public TextMeshProUGUI healthValue;
+    public Image myImage;
 
     void Awake()
     {
@@ -30,5 +32,15 @@ public class BattleHud : MonoBehaviour
     public void SetPP(int pp)
     {
         ppValue.text = pp.ToString();
+    }
+
+    public void PlayersDone()
+    {
+        myImage.color = Color.grey;
+    }
+
+    public void LightUp()
+    {
+        myImage.color = Color.white;
     }
 }

@@ -5,7 +5,7 @@ using UnityEngine;
 public class SnakeManager : MonoBehaviour
 {
     [SerializeField] float distanceBetween = 150;
-    [SerializeField] List<GameObject> bodyParts = new List<GameObject>();
+    public List<GameObject> bodyParts = new List<GameObject>();
     
     float countUp = 0;
 

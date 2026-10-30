@@ -80,8 +80,10 @@ public class BattleManager : MonoBehaviour
 
             statsHandler.migiUnit.currentHP -= action;
             statsHandler.migiHUD.SetHUD(statsHandler.migiUnit);
+            //Play a hit animation
             if(statsHandler.migiUnit.currentHP <= 0){
                 characterManager.migiDead = true;
+                //Change Hud to show as dead (red image)
                 Debug.Log("character registered as dead");
             }
             battleUIHandler.EnemyAction(name, charName);
@@ -158,11 +160,43 @@ public class BattleManager : MonoBehaviour
         enemyController.random = 0;  
        // Debug.Log("Enemy Action was completed");
     }
+
+    void HudOverlay(int hudShow)
+    {
+        statsHandler.migiHUD.PlayersDone();
+        statsHandler.jordanHUD.PlayersDone();
+        statsHandler.finneonHUD.PlayersDone();
+        statsHandler.gracieHUD.PlayersDone();
+        statsHandler.bofiHUD.PlayersDone();
+
+        if(hudShow == 1)
+        {
+            statsHandler.migiHUD.LightUp();
+        }
+        if(hudShow == 2)
+        {
+            statsHandler.jordanHUD.LightUp();
+        }
+        if(hudShow == 3)
+        {
+            statsHandler.finneonHUD.LightUp();
+        }
+        if(hudShow == 4)
+        {
+            statsHandler.gracieHUD.LightUp();
+        }
+        if(hudShow == 5)
+        {
+            statsHandler.bofiHUD.LightUp();
+        }
+    }
     
     public void MigiTurn()
     {
        // Debug.Log("MigiTurn function fired");
         //Set Up so that the corisponding UI will raise slightly above the existing ones (showing whos turn it is)
+        HudOverlay(1);
+
         battleUIHandler.ShowBattleInteractions();
         MakeList(statsHandler.migiUnit);
         StartCoroutine(Wait(2));
@@ -171,6 +205,8 @@ public class BattleManager : MonoBehaviour
     
     public void JordanTurn()
     {
+        HudOverlay(2);
+
         battleUIHandler.ShowBattleInteractions();
         MakeList(statsHandler.jordanUnit);
         StartCoroutine(Wait(2));
@@ -180,6 +216,8 @@ public class BattleManager : MonoBehaviour
 
     public void FinneonTurn()
     {
+        HudOverlay(3);
+
         battleUIHandler.ShowBattleInteractions();
         MakeList(statsHandler.finneonUnit);
         StartCoroutine(Wait(2));
@@ -188,6 +226,8 @@ public class BattleManager : MonoBehaviour
 
     public void GracieTurn()
     {
+        HudOverlay(4);
+
         battleUIHandler.ShowBattleInteractions();
         MakeList(statsHandler.gracieUnit);
         StartCoroutine(Wait(2));
@@ -196,6 +236,8 @@ public class BattleManager : MonoBehaviour
 
     public void BofiTurn()
     {
+        HudOverlay(5);
+
         battleUIHandler.ShowBattleInteractions();
         MakeList(statsHandler.bofiUnit);
         StartCoroutine(Wait(2));
