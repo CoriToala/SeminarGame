@@ -1,0 +1,54 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using System.IO;
+using Cinemachine;
+
+public class SaveController : MonoBehaviour
+{
+    private string saveLocation;
+    private inventoryController inventoryController;
+    private AbilityController abilityController;
+
+    void Start()
+    {
+        //define save location
+        saveLocation = Path.Combine(Application.persistentDataPath, "saveData.json");
+        inventoryController = FindObjectOfType<inventoryController>();
+        abilityController = FindObjectOfType<AbilityController>();
+
+        SaveGame();
+        LoadGame();
+    }
+
+    public void SaveGame()
+    {
+        SaveData saveData = new SaveData
+        {
+            playerPosition = GameObject.FindGameObjectWithTag("Player").transform.position,
+            mapBoundary = FindObjectOfType<CinemachineConfiner>().m_BoundingShape2D.gameObject.name,
+            inventorySaveData = inventoryController.GetInventoryItems(),
+            abilitySaveData = abilityController.SaveAbilities(),
+        };
+
+        File.WriteAllText(saveLocation, JsonUtility.ToJson(saveData));
+    }
+
+    public void LoadGame()
+    {
+        if(File.Exists(saveLocation))
+        {
+            SaveData saveData = JsonUtility.FromJson<SaveData>(File.ReadAllText(saveLocation));
+            GameObject.FindGameObjectWithTag("Player").transform.position = saveData.playerPosition;
+
+            FindObjectOfType<CinemachineConfiner>().m_BoundingShape2D = GameObject.Find(saveData.mapBoundary).GetComponent<PolygonCollider2D>();
+            
+            inventoryController.SetInventoryItems(saveData.inventorySaveData);
+            abilityController.SetAbilityItems(saveData.abilitySaveData);
+        }
+        else
+        {
+            SaveGame();
+        }
+    }
+}
