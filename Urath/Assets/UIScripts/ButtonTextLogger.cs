@@ -19,7 +19,7 @@ public class ButtonTextLogger : MonoBehaviour
     
     public void OnBattleButton()
     {
-        Text myText = GetComponentInChildren<Text>();
+        TextMeshProUGUI myText = GetComponentInChildren<TextMeshProUGUI>();
         string name = myText.text;
         //Debug.Log(name);
         battleHandler.ChosenAbilityName(name);

@@ -8,7 +8,7 @@ public class PlayerItemCollector : MonoBehaviour
 
    void Start()
    {
-        inventoryHandler = FindObjectOfType<inventoryController>();
+        inventoryHandler = Object.FindAnyObjectByType<inventoryController>();
    }
 
    private void OnTriggerEnter2D(Collider2D collision)

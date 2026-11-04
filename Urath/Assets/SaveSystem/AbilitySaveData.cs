@@ -2,7 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class AbilitySaveData : MonoBehaviour
+[System.Serializable]
+public class AbilitySaveData
 {
     public int abilityID;
     public int whosSpell;

@@ -7,5 +7,5 @@ public class InventorySaveData
 {
     public int itemID;
     public int slotIndex; //where it is in the inventory
-    public int whichInv;
+    public int whichInv; //which inventory in the list 
 }

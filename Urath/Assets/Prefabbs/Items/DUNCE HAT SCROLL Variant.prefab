@@ -56,9 +56,17 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 5
       objectReference: {fileID: 0}
+    - target: {fileID: 1183573841388831328, guid: fe14b34262a3a9245a0ba8d8a449a015, type: 3}
+      propertyPath: 'm_ActiveFontFeatures.Array.data[0]'
+      value: 1801810542
+      objectReference: {fileID: 0}
     - target: {fileID: 1374845752669608607, guid: fe14b34262a3a9245a0ba8d8a449a015, type: 3}
       propertyPath: m_Layer
       value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1377372396768468081, guid: fe14b34262a3a9245a0ba8d8a449a015, type: 3}
+      propertyPath: 'm_ActiveFontFeatures.Array.data[0]'
+      value: 1801810542
       objectReference: {fileID: 0}
     - target: {fileID: 1657077080774622475, guid: fe14b34262a3a9245a0ba8d8a449a015, type: 3}
       propertyPath: ID
@@ -76,6 +84,10 @@ PrefabInstance:
       propertyPath: isAbility
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 2629541887755987786, guid: fe14b34262a3a9245a0ba8d8a449a015, type: 3}
+      propertyPath: 'm_ActiveFontFeatures.Array.data[0]'
+      value: 1801810542
+      objectReference: {fileID: 0}
     - target: {fileID: 2953946580817296485, guid: fe14b34262a3a9245a0ba8d8a449a015, type: 3}
       propertyPath: m_Name
       value: DUNCE HAT SCROLL Variant
@@ -91,6 +103,10 @@ PrefabInstance:
     - target: {fileID: 3904618895989005790, guid: fe14b34262a3a9245a0ba8d8a449a015, type: 3}
       propertyPath: m_Layer
       value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4097862876353109464, guid: fe14b34262a3a9245a0ba8d8a449a015, type: 3}
+      propertyPath: 'm_ActiveFontFeatures.Array.data[0]'
+      value: 1801810542
       objectReference: {fileID: 0}
     - target: {fileID: 4802461708780804664, guid: fe14b34262a3a9245a0ba8d8a449a015, type: 3}
       propertyPath: m_Layer
@@ -176,6 +192,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5067951313916534308, guid: fe14b34262a3a9245a0ba8d8a449a015, type: 3}
+      propertyPath: 'm_ActiveFontFeatures.Array.data[0]'
+      value: 1801810542
+      objectReference: {fileID: 0}
     - target: {fileID: 5558252699802102702, guid: fe14b34262a3a9245a0ba8d8a449a015, type: 3}
       propertyPath: m_Layer
       value: 5
@@ -183,6 +203,10 @@ PrefabInstance:
     - target: {fileID: 5903874141212924049, guid: fe14b34262a3a9245a0ba8d8a449a015, type: 3}
       propertyPath: m_Layer
       value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6032484185308820757, guid: fe14b34262a3a9245a0ba8d8a449a015, type: 3}
+      propertyPath: 'm_ActiveFontFeatures.Array.data[0]'
+      value: 1801810542
       objectReference: {fileID: 0}
     - target: {fileID: 6057968632696890399, guid: fe14b34262a3a9245a0ba8d8a449a015, type: 3}
       propertyPath: m_Layer
@@ -216,6 +240,14 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 5
       objectReference: {fileID: 0}
+    - target: {fileID: 7965617824077541504, guid: fe14b34262a3a9245a0ba8d8a449a015, type: 3}
+      propertyPath: 'm_ActiveFontFeatures.Array.data[0]'
+      value: 1801810542
+      objectReference: {fileID: 0}
+    - target: {fileID: 8226040370002328678, guid: fe14b34262a3a9245a0ba8d8a449a015, type: 3}
+      propertyPath: 'm_ActiveFontFeatures.Array.data[0]'
+      value: 1801810542
+      objectReference: {fileID: 0}
     - target: {fileID: 8876374507888207632, guid: fe14b34262a3a9245a0ba8d8a449a015, type: 3}
       propertyPath: m_Layer
       value: 5
@@ -223,6 +255,10 @@ PrefabInstance:
     - target: {fileID: 8986178228145988996, guid: fe14b34262a3a9245a0ba8d8a449a015, type: 3}
       propertyPath: m_text
       value: DUNCE HAT SCROLL
+      objectReference: {fileID: 0}
+    - target: {fileID: 8986178228145988996, guid: fe14b34262a3a9245a0ba8d8a449a015, type: 3}
+      propertyPath: 'm_ActiveFontFeatures.Array.data[0]'
+      value: 1801810542
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

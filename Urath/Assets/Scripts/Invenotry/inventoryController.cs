@@ -6,15 +6,21 @@ public class inventoryController : MonoBehaviour
 {
    // [SerializeField] private GameObject inventoryPanel;
     [SerializeField] private GameObject slotPrefab;
+    private MenuController menuHandler;
     [SerializeField] int slotCount;
     //public GameObject[] itemPrefabs;
-    [SerializeField] private GameObject[] characterInventorys;
+    [SerializeField] private List<GameObject> characterInventorys = new List<GameObject>();
+    [SerializeField] private Transform inventoryParent;
+    [SerializeField] private GameObject inventoryPrefab;
+    [SerializeField] private TabController tabManager;
 
     private ItemDictionary itemDictionary;
 
     void Start()
     {
-        itemDictionary = FindObjectOfType<ItemDictionary>();
+        itemDictionary = FindAnyObjectByType<ItemDictionary>();
+        tabManager = FindAnyObjectByType<TabController>();
+        menuHandler = FindAnyObjectByType<MenuController>();
 
        // for(int i = 0; i < slotCount; i++)
       //  {
@@ -68,7 +74,7 @@ public class inventoryController : MonoBehaviour
         List<InventorySaveData> invData = new List<InventorySaveData>();
         {
             //need to go through each inventory
-            for (int i = 0; i < 5; i++)
+            for (int i = 0; i < characterInventorys.Count; i++)
             {
                 if (characterInventorys[i] != null){
                     foreach(Transform slotTransform in characterInventorys[i].transform)
@@ -84,6 +90,33 @@ public class inventoryController : MonoBehaviour
             }
             return invData;
         }
+    }
+
+    public void SetInventoryNumber(int size)
+    {
+        if(inventoryParent.childCount != size){
+            //int children = inventory 
+            while(transform.childCount < 0 )
+            {
+                Destroy(inventoryParent.GetChild(1).gameObject);
+                //print("Destoried extra children");
+            }
+            MakeInventories(size);
+        }
+    }
+
+    void MakeInventories(int howMany)
+    {
+        //print(howMany.ToString());
+        for (int i = 1; i < howMany; i++)
+            {
+                GameObject inv = Instantiate(inventoryPrefab, inventoryParent);
+                //print("Made new inventory");
+                characterInventorys.Add(inv);
+                tabManager.pages.Add(inv); //add the game object to the tab manager
+                //print("added it to both tab manager and character inventories list");
+            }
+        tabManager.updateTabs();
     }
 
     public void SetInventoryItems(List<InventorySaveData> invData)
@@ -102,11 +135,11 @@ public class inventoryController : MonoBehaviour
         {
             MigiInvManager inv = obj.GetComponent<MigiInvManager>();
             inv.CreateSlots(slotPrefab, slotCount);
+            //print("Instantiated Slots");
         }
 
         foreach(InventorySaveData data in invData)
         {
-
             CheckInv(data);
         }
     }
@@ -122,5 +155,11 @@ public class inventoryController : MonoBehaviour
                 item.GetComponent<RectTransform>().anchoredPosition = Vector2.zero;
                 slot.currentItem = item;
             }
+        //menuHandler.DisableOnStart();
+    }
+
+    public void AddInventory()
+    {
+        tabManager.updateTabs();
     }
 }

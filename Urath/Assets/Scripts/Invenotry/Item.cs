@@ -23,6 +23,7 @@ public class Item : MonoBehaviour
     {
         if(ItemPickUpUIController.Instance != null)
         {
+            //print("Sent name to pickup Controller");
             ItemPickUpUIController.Instance.ShowItemPickUp(Name);
         }
     }

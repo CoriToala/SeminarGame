@@ -1,0 +1,2301 @@
+fileFormatVersion: 2
+guid: 294d87da16d29bc49a367b7f2a57eb43
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5634864588111609949
+    second: OpenmonSpriteSet1_0
+  - first:
+      213: -8481203420950261723
+    second: OpenmonSpriteSet1_1
+  - first:
+      213: -5268744072508558921
+    second: OpenmonSpriteSet1_2
+  - first:
+      213: 6883623114788471022
+    second: OpenmonSpriteSet1_3
+  - first:
+      213: 4338089263637630102
+    second: OpenmonSpriteSet1_4
+  - first:
+      213: -3780885613668923906
+    second: OpenmonSpriteSet1_5
+  - first:
+      213: -8334293467925948023
+    second: OpenmonSpriteSet1_6
+  - first:
+      213: -7587596561234739566
+    second: OpenmonSpriteSet1_7
+  - first:
+      213: -5496127957400036028
+    second: OpenmonSpriteSet1_8
+  - first:
+      213: -8276151100401979230
+    second: OpenmonSpriteSet1_9
+  - first:
+      213: -4042799204305488982
+    second: OpenmonSpriteSet1_10
+  - first:
+      213: 1744888073605475010
+    second: OpenmonSpriteSet1_11
+  - first:
+      213: 101381376283234794
+    second: OpenmonSpriteSet1_12
+  - first:
+      213: 2419025164253209956
+    second: OpenmonSpriteSet1_13
+  - first:
+      213: 76304466202440939
+    second: OpenmonSpriteSet1_14
+  - first:
+      213: 1695272299497365376
+    second: OpenmonSpriteSet1_15
+  - first:
+      213: 1500823735599444376
+    second: OpenmonSpriteSet1_16
+  - first:
+      213: -7285765869988859387
+    second: OpenmonSpriteSet1_17
+  - first:
+      213: -3386337135122525045
+    second: OpenmonSpriteSet1_18
+  - first:
+      213: 8970953659510757949
+    second: OpenmonSpriteSet1_19
+  - first:
+      213: 2247828932339257533
+    second: OpenmonSpriteSet1_20
+  - first:
+      213: 5063631814730084889
+    second: OpenmonSpriteSet1_21
+  - first:
+      213: 2613003444179590125
+    second: OpenmonSpriteSet1_22
+  - first:
+      213: -745554553353629502
+    second: OpenmonSpriteSet1_23
+  - first:
+      213: -3633961253107756308
+    second: OpenmonSpriteSet1_24
+  - first:
+      213: 2936484039916856425
+    second: OpenmonSpriteSet1_25
+  - first:
+      213: 6261913011248965935
+    second: OpenmonSpriteSet1_26
+  - first:
+      213: 4175721826947863589
+    second: OpenmonSpriteSet1_27
+  - first:
+      213: -2468378534949827388
+    second: OpenmonSpriteSet1_28
+  - first:
+      213: 5092354234340018991
+    second: OpenmonSpriteSet1_29
+  - first:
+      213: -4706208064070740238
+    second: OpenmonSpriteSet1_30
+  - first:
+      213: 4367252361745133087
+    second: OpenmonSpriteSet1_31
+  - first:
+      213: -5132557640141988142
+    second: OpenmonSpriteSet1_32
+  - first:
+      213: 2388538443530365261
+    second: OpenmonSpriteSet1_33
+  - first:
+      213: -8832106722760745780
+    second: OpenmonSpriteSet1_34
+  - first:
+      213: 5210809107046617248
+    second: OpenmonSpriteSet1_35
+  - first:
+      213: -3250086532347387668
+    second: OpenmonSpriteSet1_36
+  - first:
+      213: 202065418401103900
+    second: OpenmonSpriteSet1_37
+  - first:
+      213: 8716800411276863227
+    second: OpenmonSpriteSet1_38
+  - first:
+      213: -6720204098435288703
+    second: OpenmonSpriteSet1_39
+  - first:
+      213: -2009958899359683172
+    second: OpenmonSpriteSet1_40
+  - first:
+      213: 2303987356077550983
+    second: OpenmonSpriteSet1_41
+  - first:
+      213: 1947789040949795243
+    second: OpenmonSpriteSet1_42
+  - first:
+      213: -6303267841844759698
+    second: OpenmonSpriteSet1_43
+  - first:
+      213: 4549987159057156234
+    second: OpenmonSpriteSet1_44
+  - first:
+      213: 4451471654998868971
+    second: OpenmonSpriteSet1_45
+  - first:
+      213: 8839561877663573424
+    second: OpenmonSpriteSet1_46
+  - first:
+      213: 8538979602638226306
+    second: OpenmonSpriteSet1_47
+  - first:
+      213: 4744718933838330072
+    second: OpenmonSpriteSet1_48
+  - first:
+      213: -5938898921404220925
+    second: OpenmonSpriteSet1_49
+  - first:
+      213: 1613407321315570235
+    second: OpenmonSpriteSet1_50
+  - first:
+      213: 336695024518044503
+    second: OpenmonSpriteSet1_51
+  - first:
+      213: -7814478264612899496
+    second: OpenmonSpriteSet1_52
+  - first:
+      213: -5420298746388462687
+    second: OpenmonSpriteSet1_53
+  - first:
+      213: 3518510583390703535
+    second: OpenmonSpriteSet1_54
+  - first:
+      213: -7666464322899145141
+    second: OpenmonSpriteSet1_55
+  - first:
+      213: -575249333401658181
+    second: OpenmonSpriteSet1_56
+  - first:
+      213: -7452238398020102109
+    second: OpenmonSpriteSet1_57
+  - first:
+      213: -7963442753445012140
+    second: OpenmonSpriteSet1_58
+  - first:
+      213: -3376114053538215056
+    second: OpenmonSpriteSet1_59
+  - first:
+      213: 2760347700095192837
+    second: OpenmonSpriteSet1_60
+  - first:
+      213: -3747825767189577063
+    second: OpenmonSpriteSet1_61
+  - first:
+      213: -4970194677369059481
+    second: OpenmonSpriteSet1_62
+  - first:
+      213: 6648948461369837018
+    second: OpenmonSpriteSet1_63
+  - first:
+      213: 2349217804762348445
+    second: OpenmonSpriteSet1_64
+  - first:
+      213: -1957847936581156941
+    second: OpenmonSpriteSet1_65
+  - first:
+      213: -3373904780459921463
+    second: OpenmonSpriteSet1_66
+  - first:
+      213: -1747348310626734252
+    second: OpenmonSpriteSet1_67
+  - first:
+      213: -2065767814775567570
+    second: OpenmonSpriteSet1_68
+  - first:
+      213: 7503692636180278485
+    second: OpenmonSpriteSet1_69
+  - first:
+      213: -486958896198020440
+    second: OpenmonSpriteSet1_70
+  - first:
+      213: 2026177187417475799
+    second: OpenmonSpriteSet1_71
+  - first:
+      213: 8962328879720761335
+    second: OpenmonSpriteSet1_72
+  - first:
+      213: 3983964798487305780
+    second: OpenmonSpriteSet1_73
+  - first:
+      213: 6435695533922098101
+    second: OpenmonSpriteSet1_74
+  - first:
+      213: -1852101108477270359
+    second: OpenmonSpriteSet1_75
+  - first:
+      213: -1856249244052918431
+    second: OpenmonSpriteSet1_76
+  - first:
+      213: -3098886663659796448
+    second: OpenmonSpriteSet1_77
+  - first:
+      213: 8813515749951716467
+    second: OpenmonSpriteSet1_78
+  - first:
+      213: -386273965936985485
+    second: OpenmonSpriteSet1_79
+  - first:
+      213: 4771617460967107763
+    second: OpenmonSpriteSet1_80
+  - first:
+      213: 1571491888300994767
+    second: OpenmonSpriteSet1_81
+  - first:
+      213: -2792108539181089489
+    second: OpenmonSpriteSet1_82
+  - first:
+      213: 6042898867072784035
+    second: OpenmonSpriteSet1_83
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: OpenmonSpriteSet1_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 181
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3affd2c0380fcc1b0800000000000000
+      internalID: -5634864588111609949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OpenmonSpriteSet1_1
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 181
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5209e6a8c66bc4a80800000000000000
+      internalID: -8481203420950261723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OpenmonSpriteSet1_2
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 181
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b1bea95e29a1e6b0800000000000000
+      internalID: -5268744072508558921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OpenmonSpriteSet1_3
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 181
+        width: 18
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee082ac70ca878f50800000000000000
+      internalID: 6883623114788471022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OpenmonSpriteSet1_4
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 182
+        width: 18
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69c8e0b733df33c30800000000000000
+      internalID: 4338089263637630102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OpenmonSpriteSet1_5
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 181
+        width: 18
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef501ecf098978bc0800000000000000
+      internalID: -3780885613668923906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OpenmonSpriteSet1_6
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 181
+        width: 17
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9895a667f34a65c80800000000000000
+      internalID: -8334293467925948023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OpenmonSpriteSet1_7
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 181
+        width: 16
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29eb0acd02173b690800000000000000
+      internalID: -7587596561234739566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OpenmonSpriteSet1_8
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 181
+        width: 17
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44dd3131eb4d9b3b0800000000000000
+      internalID: -5496127957400036028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OpenmonSpriteSet1_9
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 181
+        width: 18
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a0f4115c64352d80800000000000000
+      internalID: -8276151100401979230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OpenmonSpriteSet1_10
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 182
+        width: 18
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa3b3291b8715e7c0800000000000000
+      internalID: -4042799204305488982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OpenmonSpriteSet1_11
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 181
+        width: 18
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2cae1184576173810800000000000000
+      internalID: 1744888073605475010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OpenmonSpriteSet1_12
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 156
+        width: 16
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae1d33813dd286100800000000000000
+      internalID: 101381376283234794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OpenmonSpriteSet1_13
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 155
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4652b02029a129120800000000000000
+      internalID: 2419025164253209956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OpenmonSpriteSet1_14
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 156
+        width: 16
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be4b5caf1861f0100800000000000000
+      internalID: 76304466202440939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OpenmonSpriteSet1_15
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 155
+        width: 17
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08f9919ac21d68710800000000000000
+      internalID: 1695272299497365376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OpenmonSpriteSet1_16
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 155
+        width: 17
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89131ee5c3ff3d410800000000000000
+      internalID: 1500823735599444376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OpenmonSpriteSet1_17
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 155
+        width: 17
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50236aafa82c3ea90800000000000000
+      internalID: -7285765869988859387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OpenmonSpriteSet1_18
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 155
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b84de4331505101d0800000000000000
+      internalID: -3386337135122525045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OpenmonSpriteSet1_19
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 155
+        width: 18
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3a11abb2da3f7c70800000000000000
+      internalID: 8970953659510757949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OpenmonSpriteSet1_20
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 155
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db05de32184e13f10800000000000000
+      internalID: 2247828932339257533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OpenmonSpriteSet1_21
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 155
+        width: 17
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9127a56ae42a54640800000000000000
+      internalID: 5063631814730084889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OpenmonSpriteSet1_22
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 155
+        width: 17
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: deb5237c9c0434420800000000000000
+      internalID: 2613003444179590125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OpenmonSpriteSet1_23
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 155
+        width: 17
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c09ea6751247a5f0800000000000000
+      internalID: -745554553353629502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OpenmonSpriteSet1_24
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 130
+        width: 16
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce29afc6e73919dc0800000000000000
+      internalID: -3633961253107756308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OpenmonSpriteSet1_25
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 129
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96429d71dac70c820800000000000000
+      internalID: 2936484039916856425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OpenmonSpriteSet1_26
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 130
+        width: 16
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2924e9e4b8c6e650800000000000000
+      internalID: 6261913011248965935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OpenmonSpriteSet1_27
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 129
+        width: 17
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5249210b0e423f930800000000000000
+      internalID: 4175721826947863589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OpenmonSpriteSet1_28
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 129
+        width: 17
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4cccd1decce8ebdd0800000000000000
+      internalID: -2468378534949827388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OpenmonSpriteSet1_29
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 129
+        width: 17
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2b0b48123daba640800000000000000
+      internalID: 5092354234340018991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OpenmonSpriteSet1_30
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 129
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f61cf543b030beb0800000000000000
+      internalID: -4706208064070740238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OpenmonSpriteSet1_31
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 129
+        width: 18
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1eed4262e89b9c30800000000000000
+      internalID: 4367252361745133087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OpenmonSpriteSet1_32
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 129
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2de9e1e050e75c8b0800000000000000
+      internalID: -5132557640141988142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OpenmonSpriteSet1_33
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 129
+        width: 17
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d49edf23f0bc52120800000000000000
+      internalID: 2388538443530365261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OpenmonSpriteSet1_34
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 129
+        width: 17
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ccc918beabd0e6580800000000000000
+      internalID: -8832106722760745780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OpenmonSpriteSet1_35
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 129
+        width: 17
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a052e95643805840800000000000000
+      internalID: 5210809107046617248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OpenmonSpriteSet1_36
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 103
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce0272eb48f55e2d0800000000000000
+      internalID: -3250086532347387668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OpenmonSpriteSet1_37
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 103
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c10403d6d61edc200800000000000000
+      internalID: 202065418401103900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OpenmonSpriteSet1_38
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 103
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf6e22c5acb48f870800000000000000
+      internalID: 8716800411276863227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OpenmonSpriteSet1_39
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 103
+        width: 17
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 181f3a64af90db2a0800000000000000
+      internalID: -6720204098435288703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OpenmonSpriteSet1_40
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 104
+        width: 18
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9de78eb7013b14e0800000000000000
+      internalID: -2009958899359683172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OpenmonSpriteSet1_41
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 103
+        width: 17
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78d6ef51b4869ff10800000000000000
+      internalID: 2303987356077550983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OpenmonSpriteSet1_42
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 103
+        width: 16
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba9163b10dfe70b10800000000000000
+      internalID: 1947789040949795243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OpenmonSpriteSet1_43
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 103
+        width: 16
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6333b24b4b4688a0800000000000000
+      internalID: -6303267841844759698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OpenmonSpriteSet1_44
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 103
+        width: 16
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a88c03cd63dc42f30800000000000000
+      internalID: 4549987159057156234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OpenmonSpriteSet1_45
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 103
+        width: 18
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be38de3a2edc6cd30800000000000000
+      internalID: 4451471654998868971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OpenmonSpriteSet1_46
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 104
+        width: 18
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b5e83891be6caa70800000000000000
+      internalID: 8839561877663573424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OpenmonSpriteSet1_47
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 103
+        width: 18
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 283ce8705bc808670800000000000000
+      internalID: 8538979602638226306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OpenmonSpriteSet1_48
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 77
+        width: 18
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d8f0825bb0a8d140800000000000000
+      internalID: 4744718933838330072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OpenmonSpriteSet1_49
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 77
+        width: 18
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30a30c885eac49da0800000000000000
+      internalID: -5938898921404220925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OpenmonSpriteSet1_50
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 77
+        width: 18
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3277091969f36610800000000000000
+      internalID: 1613407321315570235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OpenmonSpriteSet1_51
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 78
+        width: 18
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75b1a06475e2ca400800000000000000
+      internalID: 336695024518044503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OpenmonSpriteSet1_52
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 79
+        width: 17
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 855bcb4db656d8390800000000000000
+      internalID: -7814478264612899496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OpenmonSpriteSet1_53
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 78
+        width: 18
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a34505120b37c4b0800000000000000
+      internalID: -5420298746388462687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OpenmonSpriteSet1_54
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 78
+        width: 17
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: faf8475dbb244d030800000000000000
+      internalID: 3518510583390703535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OpenmonSpriteSet1_55
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 78
+        width: 16
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4e0466215f3b9590800000000000000
+      internalID: -7666464322899145141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OpenmonSpriteSet1_56
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 78
+        width: 17
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bbc505177cd4408f0800000000000000
+      internalID: -575249333401658181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OpenmonSpriteSet1_57
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 51
+        width: 16
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3285c7029a4549890800000000000000
+      internalID: -7452238398020102109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OpenmonSpriteSet1_58
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 51
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45d50c3020b2c7190800000000000000
+      internalID: -7963442753445012140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OpenmonSpriteSet1_59
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 51
+        width: 16
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07b86add722a521d0800000000000000
+      internalID: -3376114053538215056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OpenmonSpriteSet1_60
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 53
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50f8db8bb99be4620800000000000000
+      internalID: 2760347700095192837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OpenmonSpriteSet1_61
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 53
+        width: 16
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9920c92525c0dfbc0800000000000000
+      internalID: -3747825767189577063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OpenmonSpriteSet1_62
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 53
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76741ee2642560bb0800000000000000
+      internalID: -4970194677369059481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OpenmonSpriteSet1_63
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 52
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad544d1e56fc54c50800000000000000
+      internalID: 6648948461369837018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OpenmonSpriteSet1_64
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 52
+        width: 18
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9bf1e095291a9020800000000000000
+      internalID: 2349217804762348445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OpenmonSpriteSet1_65
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 52
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3bf39dfbca354d4e0800000000000000
+      internalID: -1957847936581156941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OpenmonSpriteSet1_66
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 25
+        width: 16
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9cfa1b65a7b7d21d0800000000000000
+      internalID: -3373904780459921463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OpenmonSpriteSet1_67
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 25
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45fe63628fb20c7e0800000000000000
+      internalID: -1747348310626734252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OpenmonSpriteSet1_68
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 25
+        width: 16
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2b0edb0e1be453e0800000000000000
+      internalID: -2065767814775567570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OpenmonSpriteSet1_69
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 27
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5dc6d3342b8722860800000000000000
+      internalID: 7503692636180278485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OpenmonSpriteSet1_70
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 27
+        width: 16
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a296e3c679fd39f0800000000000000
+      internalID: -486958896198020440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OpenmonSpriteSet1_71
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 27
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7dac404ba6d6e1c10800000000000000
+      internalID: 2026177187417475799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OpenmonSpriteSet1_72
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 26
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f70bf3b1a6906c70800000000000000
+      internalID: 8962328879720761335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OpenmonSpriteSet1_73
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 26
+        width: 18
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43e1f7350e2e94730800000000000000
+      internalID: 3983964798487305780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OpenmonSpriteSet1_74
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 26
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5bb9ef58dfe205950800000000000000
+      internalID: 6435695533922098101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OpenmonSpriteSet1_75
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 0
+        width: 18
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a6ea1dcad30c46e0800000000000000
+      internalID: -1852101108477270359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OpenmonSpriteSet1_76
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 0
+        width: 18
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16f63a9b5274d36e0800000000000000
+      internalID: -1856249244052918431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OpenmonSpriteSet1_77
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 0
+        width: 18
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 028cc5d7ffa8ef4d0800000000000000
+      internalID: -3098886663659796448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OpenmonSpriteSet1_78
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 0
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37cbe2ae0e5ef4a70800000000000000
+      internalID: 8813515749951716467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OpenmonSpriteSet1_79
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 1
+        width: 17
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37a3852efdda3aaf0800000000000000
+      internalID: -386273965936985485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OpenmonSpriteSet1_80
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 0
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3bceef4bcc0383240800000000000000
+      internalID: 4771617460967107763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OpenmonSpriteSet1_81
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 0
+        width: 16
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc0b699db8f0fc510800000000000000
+      internalID: 1571491888300994767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OpenmonSpriteSet1_82
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 0
+        width: 16
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2db6cba3107049d0800000000000000
+      internalID: -2792108539181089489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OpenmonSpriteSet1_83
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 0
+        width: 16
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a6db71c080bcd350800000000000000
+      internalID: 6042898867072784035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      OpenmonSpriteSet1_0: -5634864588111609949
+      OpenmonSpriteSet1_1: -8481203420950261723
+      OpenmonSpriteSet1_10: -4042799204305488982
+      OpenmonSpriteSet1_11: 1744888073605475010
+      OpenmonSpriteSet1_12: 101381376283234794
+      OpenmonSpriteSet1_13: 2419025164253209956
+      OpenmonSpriteSet1_14: 76304466202440939
+      OpenmonSpriteSet1_15: 1695272299497365376
+      OpenmonSpriteSet1_16: 1500823735599444376
+      OpenmonSpriteSet1_17: -7285765869988859387
+      OpenmonSpriteSet1_18: -3386337135122525045
+      OpenmonSpriteSet1_19: 8970953659510757949
+      OpenmonSpriteSet1_2: -5268744072508558921
+      OpenmonSpriteSet1_20: 2247828932339257533
+      OpenmonSpriteSet1_21: 5063631814730084889
+      OpenmonSpriteSet1_22: 2613003444179590125
+      OpenmonSpriteSet1_23: -745554553353629502
+      OpenmonSpriteSet1_24: -3633961253107756308
+      OpenmonSpriteSet1_25: 2936484039916856425
+      OpenmonSpriteSet1_26: 6261913011248965935
+      OpenmonSpriteSet1_27: 4175721826947863589
+      OpenmonSpriteSet1_28: -2468378534949827388
+      OpenmonSpriteSet1_29: 5092354234340018991
+      OpenmonSpriteSet1_3: 6883623114788471022
+      OpenmonSpriteSet1_30: -4706208064070740238
+      OpenmonSpriteSet1_31: 4367252361745133087
+      OpenmonSpriteSet1_32: -5132557640141988142
+      OpenmonSpriteSet1_33: 2388538443530365261
+      OpenmonSpriteSet1_34: -8832106722760745780
+      OpenmonSpriteSet1_35: 5210809107046617248
+      OpenmonSpriteSet1_36: -3250086532347387668
+      OpenmonSpriteSet1_37: 202065418401103900
+      OpenmonSpriteSet1_38: 8716800411276863227
+      OpenmonSpriteSet1_39: -6720204098435288703
+      OpenmonSpriteSet1_4: 4338089263637630102
+      OpenmonSpriteSet1_40: -2009958899359683172
+      OpenmonSpriteSet1_41: 2303987356077550983
+      OpenmonSpriteSet1_42: 1947789040949795243
+      OpenmonSpriteSet1_43: -6303267841844759698
+      OpenmonSpriteSet1_44: 4549987159057156234
+      OpenmonSpriteSet1_45: 4451471654998868971
+      OpenmonSpriteSet1_46: 8839561877663573424
+      OpenmonSpriteSet1_47: 8538979602638226306
+      OpenmonSpriteSet1_48: 4744718933838330072
+      OpenmonSpriteSet1_49: -5938898921404220925
+      OpenmonSpriteSet1_5: -3780885613668923906
+      OpenmonSpriteSet1_50: 1613407321315570235
+      OpenmonSpriteSet1_51: 336695024518044503
+      OpenmonSpriteSet1_52: -7814478264612899496
+      OpenmonSpriteSet1_53: -5420298746388462687
+      OpenmonSpriteSet1_54: 3518510583390703535
+      OpenmonSpriteSet1_55: -7666464322899145141
+      OpenmonSpriteSet1_56: -575249333401658181
+      OpenmonSpriteSet1_57: -7452238398020102109
+      OpenmonSpriteSet1_58: -7963442753445012140
+      OpenmonSpriteSet1_59: -3376114053538215056
+      OpenmonSpriteSet1_6: -8334293467925948023
+      OpenmonSpriteSet1_60: 2760347700095192837
+      OpenmonSpriteSet1_61: -3747825767189577063
+      OpenmonSpriteSet1_62: -4970194677369059481
+      OpenmonSpriteSet1_63: 6648948461369837018
+      OpenmonSpriteSet1_64: 2349217804762348445
+      OpenmonSpriteSet1_65: -1957847936581156941
+      OpenmonSpriteSet1_66: -3373904780459921463
+      OpenmonSpriteSet1_67: -1747348310626734252
+      OpenmonSpriteSet1_68: -2065767814775567570
+      OpenmonSpriteSet1_69: 7503692636180278485
+      OpenmonSpriteSet1_7: -7587596561234739566
+      OpenmonSpriteSet1_70: -486958896198020440
+      OpenmonSpriteSet1_71: 2026177187417475799
+      OpenmonSpriteSet1_72: 8962328879720761335
+      OpenmonSpriteSet1_73: 3983964798487305780
+      OpenmonSpriteSet1_74: 6435695533922098101
+      OpenmonSpriteSet1_75: -1852101108477270359
+      OpenmonSpriteSet1_76: -1856249244052918431
+      OpenmonSpriteSet1_77: -3098886663659796448
+      OpenmonSpriteSet1_78: 8813515749951716467
+      OpenmonSpriteSet1_79: -386273965936985485
+      OpenmonSpriteSet1_8: -5496127957400036028
+      OpenmonSpriteSet1_80: 4771617460967107763
+      OpenmonSpriteSet1_81: 1571491888300994767
+      OpenmonSpriteSet1_82: -2792108539181089489
+      OpenmonSpriteSet1_83: 6042898867072784035
+      OpenmonSpriteSet1_9: -8276151100401979230
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

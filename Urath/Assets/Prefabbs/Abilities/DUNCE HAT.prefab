@@ -10,7 +10,6 @@ GameObject:
   m_Component:
   - component: {fileID: 2854222294492275574}
   - component: {fileID: 5636760886492412554}
-  - component: {fileID: -6670997077974207433}
   m_Layer: 0
   m_Name: DUNCE HAT
   m_TagString: Untagged
@@ -51,17 +50,3 @@ MonoBehaviour:
   statusEffects: 
   abilityCost: 5
   ID: 0
---- !u!114 &-6670997077974207433
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7249640899051422093}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 53c96a159db9ac547a4a91feea8a75f5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  abilityID: 0
-  whosSpell: 0

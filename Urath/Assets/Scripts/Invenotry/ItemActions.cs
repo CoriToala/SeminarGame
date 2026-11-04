@@ -18,9 +18,9 @@ public class ItemActions : MonoBehaviour
     void Start()
     {
         myActions.SetActive(false);
-        inventoryHandler = FindObjectOfType<inventoryController>();
-        battleHandler = FindObjectOfType<BattleManager>();
-        tabManager = FindObjectOfType<TabController>();
+        inventoryHandler = FindAnyObjectByType<inventoryController>();
+        battleHandler = FindAnyObjectByType<BattleManager>();
+        tabManager = Object.FindAnyObjectByType<TabController>();
         itemPrefab = GetComponent<Item>();
         inventories.SetActive(false);
         if(equippedItem != null){
@@ -92,7 +92,7 @@ public class ItemActions : MonoBehaviour
             //send into to battle handler
             int health = itemPrefab.HpGain;
             battleHandler.Heal(health, who);
-                            Destroy(this.gameObject);
+            Destroy(this.gameObject);
             
         }
         //if item is an ability 

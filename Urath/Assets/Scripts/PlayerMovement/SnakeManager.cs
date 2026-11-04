@@ -6,15 +6,12 @@ public class SnakeManager : MonoBehaviour
 {
     [SerializeField] float distanceBetween = 150;
     public List<GameObject> bodyParts = new List<GameObject>();
+    public Vector3 startingPosition;
+    //[SerializeField] public List<GameObject> characterModels = new List<GameObject>();
     
     float countUp = 0;
 
     List<GameObject> snakeBody = new List<GameObject>();
-   
-    void Awake()
-    {
-        CreateBodyParts();
-    }
 
     // Update is called once per frame
     void Update()
@@ -41,7 +38,7 @@ public class SnakeManager : MonoBehaviour
     void CreateBodyParts()
     {
         if (snakeBody.Count == 0){
-            GameObject temp1 = Instantiate(bodyParts[0], transform.position, transform.rotation, transform);
+            GameObject temp1 = Instantiate(bodyParts[0], startingPosition, transform.rotation, transform);
 
             if(!temp1.GetComponent<MarkerManager>()){
                 temp1.AddComponent<MarkerManager>();

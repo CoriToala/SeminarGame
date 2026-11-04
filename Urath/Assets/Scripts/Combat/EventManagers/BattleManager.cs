@@ -54,6 +54,7 @@ public class BattleManager : MonoBehaviour
 
     public void StartBattle(Unit unit)
     {
+        PauseController.SetPause(true);
         //called by Enemy Controller after he hits the player
         currentEnemy = unit;
         battleUIHandler.ShowBattleArt(currentEnemy);
@@ -84,7 +85,7 @@ public class BattleManager : MonoBehaviour
             if(statsHandler.migiUnit.currentHP <= 0){
                 characterManager.migiDead = true;
                 //Change Hud to show as dead (red image)
-                Debug.Log("character registered as dead");
+               // Debug.Log("character registered as dead");
             }
             battleUIHandler.EnemyAction(name, charName);
            // Debug.Log(whosHit.ToString() + " was hit");
@@ -141,15 +142,17 @@ public class BattleManager : MonoBehaviour
     public void EnemyDied()
     {
         battleUIHandler.YouWon();
-        StartCoroutine(Wait(1));
+        //StartCoroutine(Wait(1));
         battleUIHandler.HideBattleUI();
+        PauseController.SetPause(false);
         //later will tell characterManager to update each unit and calculate additions;
     }
 
     public void RanFromBattle()
     {
-        StartCoroutine(Wait(1));
+        //StartCoroutine(Wait(1));
         battleUIHandler.HideBattleUI();
+        PauseController.SetPause(false);
     }
 
     public void EnemyActionCompleted()
@@ -268,7 +271,7 @@ public class BattleManager : MonoBehaviour
 
     IEnumerator CleanUp(List<string> junk)
     {   
-        yield return new WaitForSeconds(2f);
+        yield return new WaitForSeconds(0.05f);
         junk.Clear();
     }
 
@@ -283,11 +286,13 @@ public class BattleManager : MonoBehaviour
         battleUIHandler.YouLost();
         StartCoroutine(Wait(1));
         battleUIHandler.HideBattleUI();
+        PauseController.SetPause(false);
     }
 
     public void ChosenAbilityName(string buttonName)
     {
         int turn = characterManager.whoGoes;
+        //print(turn.ToString());
         Unit person = CheckActive(turn);
         GetAbilityDmg(person, buttonName);
     }

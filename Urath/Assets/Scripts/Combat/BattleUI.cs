@@ -10,24 +10,26 @@ public class BattleUI : MonoBehaviour
 {
 
     [HideInInspector] public Unit enemy;
-    [SerializeField] private Text dialogueText;
+    [SerializeField] private TextMeshProUGUI dialogueText;
     [SerializeField] private Image enemyImage;
     [SerializeField] private Image background;
 
-    [SerializeField] private GameObject currentMoves;
+    [SerializeField] private GameObject abilityInputs;
 
     [SerializeField] List<TextMeshProUGUI> buttonList = new List<TextMeshProUGUI>();
 
-    [SerializeField] private GameObject battleInputs;
-    [SerializeField] private GameObject battleUI;
+    [SerializeField] private GameObject normalInputs;
+    //[SerializeField] private GameObject battleUI;
+    //[SerializeField] private GameObject battleHudParent;
 
     [SerializeField]BattleManager battleHandler;
     public int random = 0;
 
     void Start()
     {
-        battleUI.SetActive(false);
-        battleInputs.SetActive(false);
+        this.gameObject.SetActive(false);
+        normalInputs.SetActive(false);
+        abilityInputs.SetActive(false);
 
         battleHandler = UnityEngine.Object.FindAnyObjectByType<BattleManager>();
     }
@@ -35,34 +37,36 @@ public class BattleUI : MonoBehaviour
 
     public void HideBattleInteracitons()
     {
-        battleUI.SetActive(true);
-        battleInputs.SetActive(false);
+        this.gameObject.SetActive(true);
+        normalInputs.SetActive(false);
     }
 
     public void ShowBattleInteractions()
     {
        // Debug.Log("Show Battle Interactions was called");
-        battleInputs.SetActive(true);
+        normalInputs.SetActive(true);
     }
 
     public void HideBattleUI()
     {
-        battleUI.SetActive(false);
-        battleInputs.SetActive(false);
+        abilityInputs.SetActive(false);
+        normalInputs.SetActive(false);
+        this.gameObject.SetActive(false);
     }
 
     public void HideMoves()
     {
-        currentMoves.SetActive(false);
+        abilityInputs.SetActive(false);
     }
 
     public void ShowBattleArt(Unit unit)
     {
-        battleUI.SetActive(true);
-        battleInputs.SetActive(false);
-        enemyImage.enabled = true;
+        this.gameObject.SetActive(true);
+        normalInputs.SetActive(false);
+        HideMoves();
+        //enemyImage.enabled = true;
         SetEnemyImage(unit.mySprite);
-        background.enabled = true;
+        //background.enabled = true;
         enemy = unit;
         StartText();
     }
@@ -74,12 +78,12 @@ public class BattleUI : MonoBehaviour
 
     IEnumerator MovetoCombat()
     {
-       Debug.Log("Started Wait function");
+       //Debug.Log("Started Wait function");
         yield return new WaitForSeconds(2f);
-       Debug.Log("tried to talk to battle mamager");
+       //Debug.Log("tried to talk to battle mamager");
        battleHandler.PlayerFinished();
        random = 0;
-       Debug.Log("Told Battle Manager to start enemy turn");
+       //Debug.Log("Told Battle Manager to start enemy turn");
     }
 
     void StartText()
@@ -105,18 +109,20 @@ public class BattleUI : MonoBehaviour
     public void YouWon()
     {
         dialogueText.text = "CONGRATULATIONS!";
+        HideBattleUI();
         //add so it says what levels or stat improvments you recieved;
     }
 
     public void YouLost()
     {
         dialogueText.text = "You Lost. Better luck next time.";
+        HideBattleUI();
         //add unique text about dying and initiate that state 
     }
 
     IEnumerator WaitToDoPlayerAction()
     {
-        Debug.Log("EnemyAcction");
+        //Debug.Log("EnemyAcction");
         yield return new WaitForSeconds(2f);
         battleHandler.EnemyActionCompleted();
 
@@ -131,6 +137,7 @@ public class BattleUI : MonoBehaviour
 
     public void UpdateAbilites(List<string> movesNames) 
     {
+        //print(movesNames.Count.ToString());
         int Count = Mathf.Min(buttonList.Count, movesNames.Count);
         for (int i = 0; i < Count; i++){
             if (buttonList[i] != null){
@@ -143,7 +150,7 @@ public class BattleUI : MonoBehaviour
 
     public void OnAttackButton()
     {
-        currentMoves.SetActive(true);
+        abilityInputs.SetActive(true);
     }
 
     public void OnRunButton()

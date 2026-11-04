@@ -8,6 +8,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1183573841388831328, guid: fe14b34262a3a9245a0ba8d8a449a015, type: 3}
+      propertyPath: 'm_ActiveFontFeatures.Array.data[0]'
+      value: 1801810542
+      objectReference: {fileID: 0}
+    - target: {fileID: 1377372396768468081, guid: fe14b34262a3a9245a0ba8d8a449a015, type: 3}
+      propertyPath: 'm_ActiveFontFeatures.Array.data[0]'
+      value: 1801810542
+      objectReference: {fileID: 0}
     - target: {fileID: 1657077080774622475, guid: fe14b34262a3a9245a0ba8d8a449a015, type: 3}
       propertyPath: ID
       value: 2
@@ -24,9 +32,17 @@ PrefabInstance:
       propertyPath: isFood
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 2629541887755987786, guid: fe14b34262a3a9245a0ba8d8a449a015, type: 3}
+      propertyPath: 'm_ActiveFontFeatures.Array.data[0]'
+      value: 1801810542
+      objectReference: {fileID: 0}
     - target: {fileID: 2953946580817296485, guid: fe14b34262a3a9245a0ba8d8a449a015, type: 3}
       propertyPath: m_Name
       value: BREAD
+      objectReference: {fileID: 0}
+    - target: {fileID: 4097862876353109464, guid: fe14b34262a3a9245a0ba8d8a449a015, type: 3}
+      propertyPath: 'm_ActiveFontFeatures.Array.data[0]'
+      value: 1801810542
       objectReference: {fileID: 0}
     - target: {fileID: 4828931244280833946, guid: fe14b34262a3a9245a0ba8d8a449a015, type: 3}
       propertyPath: m_Pivot.x
@@ -108,21 +124,61 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5067951313916534308, guid: fe14b34262a3a9245a0ba8d8a449a015, type: 3}
+      propertyPath: 'm_ActiveFontFeatures.Array.data[0]'
+      value: 1801810542
+      objectReference: {fileID: 0}
+    - target: {fileID: 6032484185308820757, guid: fe14b34262a3a9245a0ba8d8a449a015, type: 3}
+      propertyPath: 'm_ActiveFontFeatures.Array.data[0]'
+      value: 1801810542
+      objectReference: {fileID: 0}
     - target: {fileID: 6606529312788293139, guid: fe14b34262a3a9245a0ba8d8a449a015, type: 3}
       propertyPath: m_SortingLayer
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6816175872158790213, guid: fe14b34262a3a9245a0ba8d8a449a015, type: 3}
+      propertyPath: m_AdditionalShaderChannelsFlag
+      value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 7965617824077541504, guid: fe14b34262a3a9245a0ba8d8a449a015, type: 3}
+      propertyPath: 'm_ActiveFontFeatures.Array.data[0]'
+      value: 1801810542
+      objectReference: {fileID: 0}
     - target: {fileID: 8153852201633174626, guid: fe14b34262a3a9245a0ba8d8a449a015, type: 3}
       propertyPath: m_OverridePixelPerfect
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8226040370002328678, guid: fe14b34262a3a9245a0ba8d8a449a015, type: 3}
+      propertyPath: 'm_ActiveFontFeatures.Array.data[0]'
+      value: 1801810542
       objectReference: {fileID: 0}
     - target: {fileID: 8986178228145988996, guid: fe14b34262a3a9245a0ba8d8a449a015, type: 3}
       propertyPath: m_text
       value: BREAD
       objectReference: {fileID: 0}
     - target: {fileID: 8986178228145988996, guid: fe14b34262a3a9245a0ba8d8a449a015, type: 3}
+      propertyPath: m_fontSize
+      value: 18
+      objectReference: {fileID: 0}
+    - target: {fileID: 8986178228145988996, guid: fe14b34262a3a9245a0ba8d8a449a015, type: 3}
       propertyPath: m_fontStyle
       value: 16
+      objectReference: {fileID: 0}
+    - target: {fileID: 8986178228145988996, guid: fe14b34262a3a9245a0ba8d8a449a015, type: 3}
+      propertyPath: m_fontSizeMax
+      value: 18
+      objectReference: {fileID: 0}
+    - target: {fileID: 8986178228145988996, guid: fe14b34262a3a9245a0ba8d8a449a015, type: 3}
+      propertyPath: m_fontSizeMin
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 8986178228145988996, guid: fe14b34262a3a9245a0ba8d8a449a015, type: 3}
+      propertyPath: m_enableAutoSizing
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8986178228145988996, guid: fe14b34262a3a9245a0ba8d8a449a015, type: 3}
+      propertyPath: 'm_ActiveFontFeatures.Array.data[0]'
+      value: 1801810542
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

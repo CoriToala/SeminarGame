@@ -33,18 +33,20 @@ public class PlayerMovement : MonoBehaviour
 
     void Update()
     {
-        rb.velocity = moveInput * moveSpeed;
+        if(PauseController.isGamePaused){
+            rb.linearVelocity = Vector2.zero; //stop movement
+            animator.SetBool("isWalking", false); //stop animation
+            return; 
+        }
+        rb.linearVelocity = moveInput * moveSpeed;
+        animator.SetBool("isWalking", rb.linearVelocity.magnitude > 0);
+        if(rb.linearVelocity.magnitude > 0){
+            walking = true;
+        }
     }
 
     public void Move(InputAction.CallbackContext context)
     {
-        if(isPaused)
-        {
-            return;
-        }
-        animator.SetBool("isWalking", true);
-        walking = true;
-
         if (context.canceled){
             animator.SetBool("isWalking", false);
             walking = false;

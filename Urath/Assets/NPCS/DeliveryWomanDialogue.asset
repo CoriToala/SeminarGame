@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7b76933920340204e882d40ec9f06cd7, type: 3}
+  m_Name: DeliveryWomanDialogue
+  m_EditorClassIdentifier: Assembly-CSharp::NPCdialogue
+  npcName: 'Delivery Woman '
+  dialogueLines:
+  - Hey kid.
+  - 'Are you lost or something? '
+  - Then go away. I'm on a tight schedule.
+  - 'Up the road to the right. '
+  autoProgressLines: 0100
+  endDialogueLines: 00000101
+  autoProgressDelay: 1.5
+  typingSpeed: 0.05
+  voiceSound: {fileID: 8300000, guid: 82d7e5371b473844f893d1d52e47eedd, type: 3}
+  voicePitch: 1
+  choices:
+  - dialogueIndex: 1
+    choices:
+    - No, I'm okay
+    - Do you know where the grocery store is?
+    nextDialogueIndexes: 0200000003000000
